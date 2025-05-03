@@ -3,8 +3,9 @@
   "version": "0.1.1",
   "description": "Astro Components",
   "source": "./src/index.tsx",
-  "main": "./lib/module/index.js",
-  "types": "./lib/typescript/src/index.d.ts",
+  "main": "./lib/commonjs/index.js",
+  "module": "./lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
   "private": true,
   "exports": {
     ".": {
